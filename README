@@ -1,5 +1,6 @@
 Little project, prob needs some tweaking.
 Was prob tweaking while making.
+Only requirements are the time module
 This program should allow you to make "Scrolling" or "Falling" ascii art.
 By that I mean art drawn line by line, possibly at an interval if you want to make a fancy revealing logo, as demonstrated in the opening sequence of my lockness OS project.
 Any questions, feel free to contact: Discord: Unlisted_dev

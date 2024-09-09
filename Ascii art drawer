@@ -1,7 +1,8 @@
 #Python
 #Please credit: Unlisted_dev
 #Contact: Unlisted_dev on discord
-def ascii(art,width):
+import time
+def ascii(art,width,delay=0.25):
     width = int(width)
     art = list(art)
     strlength = len(art)
@@ -16,6 +17,6 @@ def ascii(art,width):
         if len(line) == width:
             print(line)
             line = ""
-            time.sleep(0.25)
+            time.sleep(delay)
 logo2 = ".____    ________  _________  ____  __._______  ___________ _________ _________ |    |   \_____  \ \_   ___ \|    |/ _|\      \ \_   _____//   _____//   _____/ |    |    /   |   \/    \  \/|      <  /   |   \ |    __)_ \_____  \ \_____  \  |    |___/    |    \     \___|    |  \/    |    \|        \/        \/        \ |_______ \_______  /\______  /____|__ \____|__  /_______  /_______  y/_______  / \/       \/        \/        \/       \/        \/        \/        \/"
 ascii(logo2,80)
