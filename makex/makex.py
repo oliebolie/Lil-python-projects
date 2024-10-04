@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 license = '''
 author: Unlisted_dev
+contact: unlisted_games27 on discord
 Copyright <2024> <Unlisted_dev>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software 
@@ -17,7 +18,7 @@ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FO
 DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 '''
-print("makex version [1.1.1]")
+print("makex version [1.1.2]")
 import sys
 import os
 if len(sys.argv) <= 1:
